@@ -78,7 +78,7 @@ The following packages and versions are part of this release:
                  - Use Microsoft.ServiceFabric.AspNetCore.HttpSys instead.
 - Service Fabric 7.2 and higher runtime drops support for .NET Core Service Fabric apps running with .NET Core 2.2 runtime. .NET Core runtime 2.2 is out of support from Dec 2019. Service Fabric runtime will not install .NET Core runtime 2.2 as part of its dependency. Customers should upgrade their .NET 2.2 runtime SF apps to the next .NET Core LTS version 3.1.<br>
 - Guest executable and container applications created or upgraded in SF clusters with runtime versions 7.1+ are incompatible with prior SF runtime versions (e.g. SF 7.0).<br/>
-    Following scenarios are impacted:<br/>
+    The following scenarios are impacted:<br/>
     - An application with guest executables or containers is created or upgraded in an SF 7.1+ cluster.<br/>
     The cluster is then downgraded to a previous SF runtime version (e.g. SF 7.0).<br/>
     The application fails to activate.<br/>
